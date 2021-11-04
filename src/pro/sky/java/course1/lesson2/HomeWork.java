@@ -1,11 +1,11 @@
-package pro.sky.java.course1;
+package pro.sky.java.course1.lesson2;
 
-public class Main {
+public class HomeWork {
+
+
+    private static java.lang.System System;
 
     public static void main(String[] args) {
-        java.lang.System System;
-
-
         task1();
         task2();
         task3();
@@ -23,6 +23,8 @@ public class Main {
         long d = 6086878894448900L;
         float e = 5.7f;
         double g = 9.9765754466;
+        char y = 'H';
+        boolean isAdult = true;
     }
 
     public static void task2() {
@@ -35,25 +37,25 @@ public class Main {
     }
 
     public static void task3() {
-        int bananas = 80;
+        int bananaWeight = 80;
         int sumBananas = 5;
-        int milk = 105;
+        int milkWeight = 105;
         int sumMilk = 2;
-        int iceCream = 100;
+        int iceCreamWeight = 100;
         int sumIceCream = 2;
-        int eggs = 70;
+        int eggsWeight = 70;
         int sumEggs = 4;
-        float breakfastWeight = (bananas * sumBananas + milk * sumMilk + iceCream * sumIceCream + eggs * sumEggs) * 1.0f / 1000;
+        float breakfastWeight = (bananaWeight * sumBananas + milkWeight * sumMilk + iceCreamWeight * sumIceCream + eggsWeight * sumEggs) * 1.0f / 1000;
         System.out.println("Вес завтрака = " + breakfastWeight + " кг");
     }
 
     public static void task4() {
-        int diet1 = 250;
-        int diet2 = 500;
+        int everyDayWeightLoose1 = 250;
+        int everyDayWeightLoose2 = 500;
         int weightToLoose = 7000;
-        int daysDiet1 = weightToLoose / diet1;
+        int daysDiet1 = weightToLoose / everyDayWeightLoose1;
         System.out.println("Дней похудения на 1-ой диете - " + daysDiet1);
-        int daysDiet2 = weightToLoose / diet2;
+        int daysDiet2 = weightToLoose / everyDayWeightLoose2;
         System.out.println("Дней похудения на 2-ой диете - " + daysDiet2);
         int middleDaysDiet = (daysDiet1 + daysDiet2) / 2;
         System.out.println("Дней для похудения в среднем - " + middleDaysDiet);
@@ -103,4 +105,6 @@ public class Main {
 
     }
 
+
 }
+
